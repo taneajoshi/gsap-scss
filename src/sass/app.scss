@@ -1,7 +1,11 @@
 @import 'variables';
+@import 'normalize';
 @import 'typography';
 @import 'mixins';
 @import 'header';
 @import 'footer';
 @import 'global';
 
+body {
+    font: 10px;
+}

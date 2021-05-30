@@ -16,7 +16,7 @@
   \************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _sass_app_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../sass/app.scss */ \"./src/sass/app.scss\");\nconsole.log('Hey just seeing if sass works fine!');\n\n\n//# sourceURL=webpack://gsa-demo/./src/js/main.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _sass_app_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../sass/app.scss */ \"./src/sass/app.scss\");\n\n\n//# sourceURL=webpack://gsa-demo/./src/js/main.js?");
 
 /***/ }),
 
