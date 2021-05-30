@@ -1,9 +1,13 @@
 //COLORS
 $black: #000;
 $white: #fff;
-$primary-color: #2e5ee0;
-$gray-base: #4c4c4d;
-$brand-success: #5cb85c;
-$brand-info: #5bc0de;
-$brand-warning: #f0ad4e;
-$brand-danger: #d9534f;
+$primary-color: #00cba9;
+$title-color: #181414;
+$bg-color: $white;
+$h1-font-size: 8rem;
+$h2-font-size: 35px;
+$h3-font-size: 24px;
+$p-font-size: 18px;
+
+//Blend mode
+$blendmode-title: difference;
