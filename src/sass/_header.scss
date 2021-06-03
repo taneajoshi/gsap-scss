@@ -8,6 +8,7 @@ header {
     &.header-active {
         background-color: $white;
         box-shadow: $lighter-shadow;
+        transition: all 0.3s linear;
 
         .brand-logo {
             color: $primary-color;
