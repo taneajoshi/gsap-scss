@@ -4,13 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gsap and Scss</title>
+    <!-- FONT AWESOME CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
     <!-- CUSTOM CSS FILE -->
     <link rel="stylesheet" href="./dist/bundle.css">
 </head>
 <body>
     <!-- HEADER -->
-    <header class= "container" id="pageHeader">
-        <a href="#" class="brand-logo">Logo</a>
+    <header id="pageHeader">
+        <div class="container">
+            <a href="#" class="brand-logo">logo</a>
 
         <nav>
             <ul class="nav-menu">
@@ -35,6 +38,8 @@
         </div>
         <!-- Burger icon -->
     
+        </div>
+        
     </header>
     <!-- /HEADER -->
 
@@ -46,48 +51,224 @@
             <div class="container">
                 <svg class="banner-section--svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#00cba9" fill-opacity="1" d="M0,128L26.7,128C53.3,128,107,128,160,122.7C213.3,117,267,107,320,128C373.3,149,427,203,480,208C533.3,213,587,171,640,138.7C693.3,107,747,85,800,112C853.3,139,907,213,960,224C1013.3,235,1067,181,1120,170.7C1173.3,160,1227,192,1280,213.3C1333.3,235,1387,245,1413,250.7L1440,256L1440,0L1413.3,0C1386.7,0,1333,0,1280,0C1226.7,0,1173,0,1120,0C1066.7,0,1013,0,960,0C906.7,0,853,0,800,0C746.7,0,693,0,640,0C586.7,0,533,0,480,0C426.7,0,373,0,320,0C266.7,0,213,0,160,0C106.7,0,53,0,27,0L0,0Z"></path></svg>
                 <h1>HELLO</h1>
+                <h2>Just a page by implementing gsap, scss and menu animations </h2>
             </div>
         </section>
         <!-- /BANNER SECTION -->
 
         <!-- ABOUT SECTION -->
         <section class="about-section">
-
+            <div class="container">
+                <div class="about-section--box">
+                    <div class="about-section--box--img">
+                        <img src="src/assets/images/box-img1.jpeg" alt="some random image">
+                    </div>
+                    <div class="about-section--box--textwrapper">
+                        <h2>Lorem Ipsum</h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero aspernatur beatae dolorum debitis ratione earum.<span>read more</span></p>
+                    </div>
+                </div>
+                <div class="about-section--box">
+                    <div class="about-section--box--img">
+                        <img src="src/assets/images/box-img2.jpeg" alt="some random image">
+                    </div>
+                    <div class="about-section--box--textwrapper">
+                        <h2>Lorem Ipsum</h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero aspernatur beatae dolorum debitis ratione earum.<span>read more</span></p>
+                    </div>
+                </div>
+                <div class="about-section--box">
+                    <div class="about-section--box--img">
+                        <img src="src/assets/images/box-img3.jpeg" alt="some random image">
+                    </div>
+                    <div class="about-section--box--textwrapper">
+                        <h2>Lorem Ipsum</h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero aspernatur beatae dolorum debitis ratione earum.<span>read more</span></p>
+                    </div>
+                </div>
+                <div class="about-section--box">
+                    <div class="about-section--box--img">
+                        <img src="src/assets/images/box-img4.jpeg" alt="some random image">
+                    </div>
+                    <div class="about-section--box--textwrapper">
+                        <h2>Lorem Ipsum</h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero aspernatur beatae dolorum debitis ratione earum.<span>read more</span></p>
+                    </div>
+                </div>
+                <div class="about-section--box">
+                    <div class="about-section--box--img">
+                        <img src="src/assets/images/box-img5.jpeg" alt="some random image">
+                    </div>
+                    <div class="about-section--box--textwrapper">
+                        <h2>Lorem Ipsum</h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero aspernatur beatae dolorum debitis ratione earum.<span>read more</span></p>
+                    </div>
+                </div>
+            </div>
         </section>
         <!-- /ABOUT SECTION -->
 
         <!-- ARTICLE SECTION -->
         <section class="article-section">
+            <div class="container">
+                <h2 class="heading-pseudo-line">This is a never ending loop </h2>
+                <div class="flex-box">
+                    <div class="flex-box--img">
+                        <i class="fas fa-cog"></i>
+                        <i class="fas fa-cog"></i>
+                    </div>
 
+                    <div class="flex-box--text">
+                        <h3>Lorem Lorem Ipsum Dipsum</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint dolores, minus eum impedit mollitia a optio vel quidem soluta iusto perspiciatis esse adipisci quia totam eos consequatur saepe perferendis quas.</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet dolorem nihil aspernatur et delectus iusto sed fugit impedit tenetur aut! Non, esse distinctio? Ea perferendis facilis non nulla illum. Iusto nesciunt temporibus non laboriosam placeat? Magnam nihil earum sit explicabo.</p>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi harum aut repellat, eligendi incidunt veritatis libero magni adipisci? Sapiente, modi?</p>
+                    </div>
+                </div>
+
+                <div class="flex-box">
+                    <div class="flex-box--img">
+                        <i class="fas fa-cog"></i>
+                        <i class="fas fa-cog"></i>
+                    </div>
+
+                    <div class="flex-box--text">
+                        <h3>Lorem Lorem Ipsum Dipsum</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint dolores, minus eum impedit mollitia a optio vel quidem soluta iusto perspiciatis esse adipisci quia totam eos consequatur saepe perferendis quas.</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet dolorem nihil aspernatur et delectus iusto sed fugit impedit tenetur aut! Non, esse distinctio? Ea perferendis facilis non nulla illum. Iusto nesciunt temporibus non laboriosam placeat? Magnam nihil earum sit explicabo.</p>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi harum aut repellat, eligendi incidunt veritatis libero magni adipisci? Sapiente, modi?</p>
+                    </div>
+                </div>
+
+
+                <div class="flex-box">
+
+                    <div class="flex-box--img">
+                        <i class="fas fa-cog"></i>
+                        <i class="fas fa-cog"></i>
+                    </div>
+
+                    <div class="flex-box--text">
+                        <h3>Lorem Lorem Ipsum Dipsum</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint dolores, minus eum impedit mollitia a optio vel quidem soluta iusto perspiciatis esse adipisci quia totam eos consequatur saepe perferendis quas.</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet dolorem nihil aspernatur et delectus iusto sed fugit impedit tenetur aut! Non, esse distinctio? Ea perferendis facilis non nulla illum. Iusto nesciunt temporibus non laboriosam placeat? Magnam nihil earum sit explicabo.</p>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi harum aut repellat, eligendi incidunt veritatis libero magni adipisci? Sapiente, modi?</p>
+                    </div>
+                </div>
+
+            </div>
         </section>
         <!-- /ARTICLE SECTION -->
 
         <!-- TIMELINE SECTION -->
         <section class="timeline-section">
-
+            <div class="container">
+                <h2 class="heading-pseudo-line">Timeline</h2>
+               <div class="timeline-section--inner">
+                <div class="line-to-be-animated"></div>
+                   <div class="timeline-section--box">
+                       <div class="timeline-section--box--img one">
+                            <img src="src/assets/images/timeline-img1.jpeg" alt="timeline image">
+                       </div>
+                       <div class="timeline-section--box--text one">
+                           <h3>December 1999</h3>
+                           <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi corporis quisquam sapiente, deleniti iste est deserunt iure dolorem accusantium ipsa consectetur vel beatae quia ab eos libero in porro corrupti dolores rerum quae illum aperiam vitae cumque. Neque, iusto officiis?</p>
+                       </div>
+                   </div>
+                   <div class="timeline-section--box">
+                       <div class="timeline-section--box--img two">
+                            <img src="src/assets/images/timeline-img2.jpeg" alt="timeline image">
+                       </div>
+                       <div class="timeline-section--box--text two">
+                           <h3>December 2005</h3>
+                           <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi corporis quisquam sapiente, deleniti iste est deserunt iure dolorem accusantium ipsa consectetur vel beatae quia ab eos libero in porro corrupti dolores rerum quae illum aperiam vitae cumque. Neque, iusto officiis?</p>
+                       </div>
+                   </div>
+                   <div class="timeline-section--box">
+                       <div class="timeline-section--box--img three">
+                            <img src="src/assets/images/timeline-img3.jpeg" alt="timeline image">
+                       </div>
+                       <div class="timeline-section--box--text three">
+                           <h3>December 2010</h3>
+                           <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi corporis quisquam sapiente, deleniti iste est deserunt iure dolorem accusantium ipsa consectetur vel beatae quia ab eos libero in porro corrupti dolores rerum quae illum aperiam vitae cumque. Neque, iusto officiis?</p>
+                       </div>
+                   </div>
+                   <div class="timeline-section--box">
+                       <div class="timeline-section--box--img four">
+                            <img src="src/assets/images/timeline-img4.jpeg" alt="timeline image">
+                       </div>
+                       <div class="timeline-section--box--text four">
+                           <h3>December 2018</h3>
+                           <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi corporis quisquam sapiente, deleniti iste est deserunt iure dolorem accusantium ipsa consectetur vel beatae quia ab eos libero in porro corrupti dolores rerum quae illum aperiam vitae cumque. Neque, iusto officiis?</p>
+                       </div>
+                   </div>
+                   <div class="timeline-section--box">
+                    <div class="timeline-section--box--img five">
+                         <img src="src/assets/images/timeline-img1.jpeg" alt="timeline image">
+                    </div>
+                    <div class="timeline-section--box--text five">
+                        <h3>December 1999</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi corporis quisquam sapiente, deleniti iste est deserunt iure dolorem accusantium ipsa consectetur vel beatae quia ab eos libero in porro corrupti dolores rerum quae illum aperiam vitae cumque. Neque, iusto officiis?</p>
+                    </div>
+                </div>
+                <div class="timeline-section--box">
+                    <div class="timeline-section--box--img six">
+                         <img src="src/assets/images/timeline-img2.jpeg" alt="timeline image">
+                    </div>
+                </div>
+               </div>
+            </div>
         </section>
         <!-- /TIMELINE SECTION -->
-
-        <!-- CONTACT SECTION -->
-        <section class="contact-section">
-
-        </section>
-        <!-- /CONTACT SECTION -->
 
     </main>
     <!-- /MAIN -->
 
     <!-- FOOTER -->
     <footer id="pageFooter">
-
+        <div class="container">
+			<div class="footer-col">
+				<h2>About</h2>
+				<ul>
+					<li><a href="#">Privacy Policy</a></li>
+					<li><a href="#">Terms of Use</a></li>
+					<li><a href="#">News</a></li>
+					<li><a href="#">events</a></li>
+				</ul>
+			</div>
+			<div class="footer-col">
+				<h2>Get Involved</h2>
+				<ul>
+					<li><a href="#">Work with Us</a></li>
+					<li><a href="#">Subscribe for Newsletter</a></li>
+					<li><a href="#">Forum</a></li>
+				</ul>
+			</div>
+			<div class="footer-col">
+				<h2>Help Center</h2>
+				<ul>
+					<li><a href="#">FAQs</a></li>
+					<li><a href="#">contact us</a></li>
+					<li><a href="#">How to Start a Challenge</a></li>
+				</ul>
+			</div>
+			<div class="footer-col social">
+				<h2>Social</h2>
+				<ul>
+					<li><a href="#" class="fb"><i class="fab fa-facebook-f"></i></i></a></li>
+					<li><a href="#" class="tw"><i class="fab fa-twitter"></i></a></li>
+					<li><a href="#" class="gp"><i class="fab fa-google-plus-g"></i></a></li>
+				</ul>
+				<p class="footer-copyright">&copy; 2021 GSAP AND SASS </p>
+			</div>
+		</div>
     </footer>
     <!-- /FOOTER -->
 
-
-
     <!-- GSAP  AND JQUERY JS FILES -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollTrigger.min.js"></script> 
     <!-- CUSTOM JS FILE -->
     <script src="./dist/bundle.js"></script>
 </body>
