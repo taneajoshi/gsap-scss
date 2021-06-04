@@ -17,6 +17,42 @@ section {
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto ;
+
+    @include tablet {
+        max-width: 700px;
+    }
+
+    @include mobile {
+        max-width: 400px;
+    }
+}
+
+
+.no-scroll {
+    overflow: hidden;
+}
+
+
+// Line around heading
+
+.heading-pseudo-line {
+    &:before {
+        left: 17%;
+    }
+
+    &:after {
+        right: 17%;
+    }
+
+    &:after, &:before {
+        position: absolute;
+        background-color: #00cba9;
+        display: inline-block;
+        content: " ";
+        height: 4px;
+        width: 100px;
+        top: 50%;
+    }
 }
 
 
@@ -228,6 +264,10 @@ section {
             }
         }
 
+        &.floating-text {
+            float: left;
+        }
+
         &:last-child {
             float: none;
             .timeline-section--box--img {
@@ -259,3 +299,4 @@ section {
         }
     }
 }
+

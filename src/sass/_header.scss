@@ -8,6 +8,10 @@ header {
     &.header-active {
         background-color: $white;
         box-shadow: $lighter-shadow;
+<<<<<<< HEAD
+=======
+        transition: all 0.3s linear;
+>>>>>>> 67f37ae8c49eaeb4164df6bb320cb72f349e7e89
 
         .brand-logo {
             color: $primary-color;
