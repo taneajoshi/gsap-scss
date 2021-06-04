@@ -3,11 +3,32 @@ $black: #000;
 $white: #fff;
 $primary-color: #00cba9;
 $title-color: #181414;
+$dark-bg: #fffaf6;
 $bg-color: $white;
+$text-color: #464545;
+$blue: #2d2d77;
+
+//Font sizes
 $h1-font-size: 8rem;
-$h2-font-size: 35px;
-$h3-font-size: 24px;
-$p-font-size: 18px;
+$h2-font-size: 2.5rem;
+$h3-font-size: 1.8rem;
+$p-font-size: 1.2rem;
+
+//Margins
+$common-mb: 0.7rem;
+$large-mb: 5rem;
 
 //Blend mode
 $blendmode-title: difference;
+
+//cursor
+$cursor-stroke: #e4d6b6;
+$cursor-fill: none;
+$cursor-stroke-width: 1px; 
+
+//GRADIENT 
+$green-gradient: linear-gradient(290deg, $primary-color, $black);
+
+//Box shadow
+$oneedge-shadow: 0 8px 6px -6px #4b4a4a ;
+$lighter-shadow: 1px 8px 6px -9px #4b4a4a;
